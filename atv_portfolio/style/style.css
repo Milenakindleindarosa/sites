@@ -229,10 +229,25 @@ main.works section p {
 
 main section.banner{
 	display: flex;
+	padding: 10vw 0 5vw 0;
 }
+
 section.banner h1{
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-size: 2rem;
+}
+
+section.banner p{
+	margin: 3vw 0 3vw 0;
+}
+
+section.banner button{
+	background-color: #ff6464;
+	font-size: 1rem;
+	color: white;
+	border-radius: 1.5px;
+	padding: 10px 15px 10px 15px;
+	border: 0;
 }
 
 /*====================================================
