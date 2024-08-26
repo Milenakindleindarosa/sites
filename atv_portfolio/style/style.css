@@ -203,12 +203,12 @@ main.works section:last-child{
 }
 
 main.works h1 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin: 6vw 0 4vw 0;
 }
 
 main.works section h2 {
-	font-size: 1.1rem;
+	font-size: 1.7rem;
 	font-weight: bold;
 }
 
@@ -250,6 +250,69 @@ section.banner button{
 	border: 0;
 }
 
+section.rc-posts{
+	background: #d3dee2;
+	padding: 3vw 2vw 3vw 2vw;
+}
+
+section.rc-posts h2{
+	font-size: 1.7rem;
+}
+
+section.rc-posts ul{
+	display: flex;
+}
+
+section.rc-posts ul li{
+	background-color: white;
+	margin: 3.5vw 4vw 0 0;
+	padding: px 1vw 2vw 1vw;
+}
+
+section.rc-posts ul li:last-child{
+	margin: 3.5vw 0 0 0;
+}
+
+section.rc-posts ul li h3{
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+section.rc-posts ul li p{
+	margin: 1.5vw 0 1.5vw 0;
+}
+
+section.ft-works h2{
+	font-size: 1.7rem;
+	margin: 1rem 0 1rem 0;
+}
+
+section.ft-works div{
+	margin: 1rem 3rem 1rem 0;
+}
+
+section.ft-works > div{
+	display: flex;
+}
+
+section.ft-works h3{
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 2rem 0 2rem 0;
+}
+
+section.ft-works p.cinza{
+	color: gray;
+	margin: 1rem 0 1rem 0;
+}
+
+section.ft-works p span{
+	background: #142850;
+	color: white;
+	border-radius: 20px;
+	padding: 1px 8px 1px 8px;
+	margin: 0 20px 0 0
+}
 /*====================================================
 		  				Rodapé
 ====================================================*/
