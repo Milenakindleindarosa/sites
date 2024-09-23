@@ -201,41 +201,41 @@ section.browse div ul li p
 	margin: 3vw 0 0 0;
 }
 
-section.browse div ul ul
+section.browse div ul div
 {
 	display: flex;
 	padding: 0 15vw 0 0; 
 }
 
-section.browse div ul ul.primeira li
+section.browse div ul div.primeira li
 {
 	padding: 1vw 2.5vw 4vw 0;
 	border-bottom: 1px solid #DEDEDE;
 }
 
-section.browse div ul ul li
+section.browse div ul div li
 {
 	padding: 4vw 2.5vw 4vw 0;
 	border-bottom: 1px solid #DEDEDE;
 }
 
-section.browse div ul ul:last-child li:last-child
+section.browse div ul div:last-child li:last-child
 {
 	padding: 4vw 2.5vw 4vw 0;
 }
 
-section.browse div ul ul li h2
+section.browse div ul div li h2
 {
 	font-size: 3vw;
 }
 
-section.browse div ul ul li p
+section.browse div ul div li p
 {
 	color: #868686;
 	font-size: 1.5vw;
 }
 
-section.browse div ul ul li p span
+section.browse div ul div li p span
 {
 	color: #868686;
 	font-size: 2.5vw;
