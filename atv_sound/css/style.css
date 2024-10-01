@@ -82,7 +82,7 @@ body {
 }
 
 main {
-	margin: 0 16.8vw 0 16.8vw;
+	margin: 0 10vw 0 10vw;
 }
 
 a {
@@ -197,8 +197,9 @@ section.browse div.todo
 
 section.browse div.todo div
 {
-	justify-content: space-between;
+	width: 45%;
 }
+
 
 section.browse div.todo div h1
 {
