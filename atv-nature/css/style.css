@@ -123,8 +123,8 @@ section.servicos ul li button
 
 section.numeros
 {
-    padding: 5vw  10vw 5vw 10vw;
-    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.2)), url(../scr/back-numeros.png) no-repeat center center;
+    padding: 6vw  10vw 3vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../scr/back-numeros.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -136,19 +136,19 @@ section.numeros ul
     color: white;
 }
 
-section.numeros span
+section.numeros ul li span
 {
     font-size: 4rem;
     margin: 3px 0 0 0;
 }
 
-section.numeros h4
+section.numeros ul li h3
 {
     font-size: 2rem;
     margin: 3px 0 0 0;
 }
 
-section.numeros p
+section.numeros ul li p
 {
     font-size: 2rem;
     margin: 3px 0 0 0;
@@ -157,6 +157,35 @@ section.numeros p
 /*------------------------------------------------
                    CONTEÚDO - PRINT
 ------------------------------------------------*/
+
+section.print
+{
+    padding: 5vw  8vw 5vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.print div.texto h4
+{
+    font-size: 2.25rem;
+    color: #0B486B;
+}
+
+section.print div.texto p.text
+{
+    width: 58%;
+    color: #747474;
+    margin: 2vw 0 0 0;
+}
+
+section.print div.texto p button
+{
+    border: none;
+    background-color: #0B486B;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 2vw 0 0 0;
+}
 
 /*------------------------------------------------
                    RODAPÉ
