@@ -50,7 +50,7 @@ header nav li a.menu-atual
 }
 
 /*------------------------------------------------
-                   CONTEÚDO - BANNER
+                CONTEÚDO - BANNER
 ------------------------------------------------*/
 
 section.banner
@@ -70,7 +70,92 @@ section.banner h2
 }
 
 /*------------------------------------------------
-                   
+                CONTEÚDO - SERVICOS 
+------------------------------------------------*/
+
+section.servicos
+{
+    padding: 5vw 10vw 5vw 10vw;
+}
+
+section.servicos ul
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+section.servicos ul li
+{
+    width: 25%;
+}
+
+section.servicos ul li span
+{
+    color: #3B8686;
+    font-size: 4rem;
+}
+
+section.servicos ul li h3
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 2vw 0 2vw 0;
+}
+
+section.servicos ul li p
+{
+    color: #747474;
+}
+
+section.servicos ul li button
+{
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    margin: 1vw 0 0 0;
+}
+
+/*------------------------------------------------
+                CONTEÚDO - NUMEROS
+------------------------------------------------*/
+
+section.numeros
+{
+    padding: 5vw  10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.2)), url(../scr/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+
+section.numeros ul
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+}
+
+section.numeros span
+{
+    font-size: 4rem;
+    margin: 3px 0 0 0;
+}
+
+section.numeros h4
+{
+    font-size: 2rem;
+    margin: 3px 0 0 0;
+}
+
+section.numeros p
+{
+    font-size: 2rem;
+    margin: 3px 0 0 0;
+}
+
+/*------------------------------------------------
+                   CONTEÚDO - PRINT
 ------------------------------------------------*/
 
 /*------------------------------------------------
