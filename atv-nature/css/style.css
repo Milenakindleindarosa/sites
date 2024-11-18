@@ -190,3 +190,54 @@ section.print div.texto p button
 /*------------------------------------------------
                    RODAPÉ
 ------------------------------------------------*/
+
+footer
+{
+    background-color: #3B8686;
+    padding: 2vw 10vw 2vw 10vw;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.icones ul
+{
+    display: flex;
+}
+
+footer div.icones ul li span
+{
+    margin: 30px 8px 1.5vw 8px;
+    font-size: 2rem;
+}
+
+footer div.contato p.contato
+{
+    font-weight: 700;
+    margin: 30px 0 0 0;
+}
+
+footer div.contato ul li
+{
+    display: flex;
+}
+
+footer div.contato ul li span
+{
+    margin: 8px 8px 8px 0;
+}
+
+footer div.contato ul li p
+{
+    margin: 8px 8px 8px 0;
+}
+
+footer div.nav
+{
+    text-align: right;
+}
+
+footer div.nav ul li
+{
+    margin: 0 8px 16px 8px;
+}
